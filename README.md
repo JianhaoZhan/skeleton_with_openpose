@@ -79,9 +79,16 @@ zlib                      1.2.11               h7b6447c_3
 zstd                      1.4.9                haebb681_0
 
 4. Using :(before running, try changing image_dir in line 60 to your own's dateset path!)
+5. 
     python zjh_hmdb.py   ->> extract skeleton with RGB (pose) in HMDB-51 dataset
+    
     python zjh_hmdb_cu.py  ->> extract skeleton(thick) with RGB (pose) in HMDB-51 dataset, changing k to change thickness of skeleton in line 87
+    
     python zjh_hmdb_only_skeleton.py ->> extract skeleton without RGB frames in HMDB-51 dataset
+    
     python zjh_ucf.py
+    
     python zjh_ucf_cu.py
+    
     python zjh_ucf_only_skeleton.py
+    
