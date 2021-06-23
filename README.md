@@ -6,11 +6,12 @@ how to extract skeleton(slim or thick) withing openpose for action recognition d
 2.Second, cd in openpose/build/examples/tutorial_api_python/
 
 3.Finally, before extracting, you should install dependency, as list:
+
     python 3.7.1
     numpy 1.20.2
     opencv 3.4.2
 
-4. Using :(before running, try changing image_dir in line 60 to your own's dateset path!)
+4.Using :(before running, try changing image_dir in line 60 to your own's dateset path!)
 
     python zjh_hmdb.py   ->> extract skeleton with RGB (pose) in HMDB-51 dataset
     
