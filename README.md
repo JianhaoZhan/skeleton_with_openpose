@@ -86,9 +86,9 @@ zstd                      1.4.9                haebb681_0
     
     python zjh_hmdb_only_skeleton.py ->> extract skeleton without RGB frames in HMDB-51 dataset
     
-    python zjh_ucf.py
+    python zjh_ucf.py   ->> extract skeleton with RGB (pose) in UCF-101 dataset
     
-    python zjh_ucf_cu.py
+    python zjh_ucf_cu.py ->> extract skeleton(thick) with RGB (pose) in UCF-101 dataset, changing k to change thickness of skeleton in line 87
     
-    python zjh_ucf_only_skeleton.py
+    python zjh_ucf_only_skeleton.py ->> extract skeleton without RGB frames in UCF-101 dataset
     
