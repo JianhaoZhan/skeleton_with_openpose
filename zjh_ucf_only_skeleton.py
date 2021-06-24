@@ -68,7 +68,7 @@ try:
             if not os.path.exists(target):
                 os.makedirs(target)
             now_num=os.listdir(target)
-            for i in range(1,len(org_num)+1):
+            for i in range(1,(len(org_num)+1)//3+1):
                 if '{:0>5d}.jpg'.format(i) not in now_num:
                     try:
                         # Process Image
